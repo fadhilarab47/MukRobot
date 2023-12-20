@@ -11,7 +11,7 @@ class Config(object):
 
     MUST_JOIN = "SiArab_Support"
     SUPPORT_CHAT = "SiArab_Support"  # Your own group for support, do not add the @
-    START_IMG = "https://telegra.ph//file/a679b3ae99ff100437671.jpg"
+    START_IMG = "https://telegra.ph//file/3900ea5b3385ac7632dac.jpg"
     EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= "mongodb+srv://doadmin:9r260Iqy437zS1lA@db-mongodb-sgp1-52558-1312a8db.mongo.ondigitalocean.com/admin?tls=true&authSource=admin&replicaSet=db-mongodb-sgp1-52558"
     # RECOMMENDED
