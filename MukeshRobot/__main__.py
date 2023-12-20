@@ -363,7 +363,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "mukesh_":
         uptime = get_readable_time((time.time() - StartTime))
-        query.message.edit_caption(f"*Hai Mek,*[🤖](https://telegra.ph//file/3900ea5b3385ac7632dac.jpg)\n  *Ini adalah {dispatcher.bot.first_name}*"
+        query.message.edit_caption(f"*Hai Mek,*\n  *Ini adalah {dispatcher.bot.first_name} [🤖](https://telegra.ph//file/3900ea5b3385ac7632dac.jpg)*"
             "\n*Bot Manage + Music + Generated String*"
             "\n*Bot biasa aja sama kyk yang lain.*"
             "\n\n────────────────────"
@@ -393,7 +393,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             text="ᴛᴀᴍʙᴀʜᴋᴀɴ ɢᴡ ᴋᴇ ɢʀᴏᴜᴘ ʟᴜ ➕",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
-    ],
+    ]
 
 ]
             ),
@@ -415,7 +415,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
-                    ],
+                    ]
                 ]
             ),
         )
@@ -429,22 +429,20 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
 def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Main_help":
-        query.message.edit_caption(f"""
-✮ Kalo Kalean Mau Ngambil String di bot {BOT_NAME} String Pyrogram, Pyrogram v2, atau Telethon kalian klik aja /genstring bree
-""",
+        query.message.edit_caption(f"""✮ Kalo Kalean Mau Ngambil String di bot {BOT_NAME} String Pyrogram, Pyrogram v2, atau Telethon kalian klik aja /genstring bree""",
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
-                    ],
+                    ]
                 ]
             ),
         )
     elif query.data=="basic_help":
-        query.message.edit_caption("""
-✮ Ubot Premium adalah userbot simple yang mmudahkan kalian tanpa harus melewati proses deploy yg rumit & dengan modul yang lebih keren serta full emoji premium jika akun anda premium
+        query.message.edit_caption(
+"""✮ Ubot Premium adalah userbot simple yang mmudahkan kalian tanpa harus melewati proses deploy yg rumit & dengan modul yang lebih keren serta full emoji premium jika akun anda premium
 
 Untuk List Userbot Premium SI ARAB STORE bisa kalian cek list di bawah ini :
 """,parse_mode=ParseMode.MARKDOWN,
@@ -469,7 +467,7 @@ Untuk List Userbot Premium SI ARAB STORE bisa kalian cek list di bawah ini :
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
-                    ],
+                    ]
                 ]
             ),
             )
@@ -510,7 +508,7 @@ Untuk List Userbot Premium SI ARAB STORE bisa kalian cek list di bawah ini :
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
-                    ],
+                    ]
                 ]
             ),
             )                                        
