@@ -90,7 +90,7 @@ PM_START_TEXT = """
 
 buttons = [
         [
-        InlineKeyboardButton(text="ᴀᴍʙɪʟ ꜱᴛʀɪɴɢ 📩", callback_data="Main_help"),
+        InlineKeyboardButton(text="ᴀᴍʙɪʟ ꜱᴛʀɪɴɢ 📩", url=f"https://t.me/berlingenstringbot"),
         ],
         [
         InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="help_back"),
@@ -378,7 +378,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
         [
-        InlineKeyboardButton(text="ᴀᴍʙɪʟ ꜱᴛʀɪɴɢ 📩", callback_data="Main_help"),
+        InlineKeyboardButton(text="ᴀᴍʙɪʟ ꜱᴛʀɪɴɢ 📩", url=f"https://t.me/berlingenstringbot"),
         ],
         [
         InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="help_back"),
@@ -429,12 +429,15 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
 def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Main_help":
-        query.message.edit_caption(f"""*✮ ᴋᴀʟᴏ ᴋᴀʟᴇᴀɴ ᴍᴀᴜ ɴɢᴀᴍʙɪʟ ꜱᴛʀɪɴɢ ᴅɪ ʙᴏᴛ {BOT_NAME} ꜱᴛʀɪɴɢ ᴘʏʀᴏɢʀᴀᴍ, ᴘʏʀᴏɢʀᴀᴍ ᴠ2, ᴀᴛᴀᴜ ᴛᴇʟᴇᴛʜᴏɴ ᴋᴀʟɪᴀɴ ᴋʟɪᴋ ᴀᴊᴀ* 
-        /genstring .""",
+        query.message.edit_caption(f"""*✮ ᴍɪɴɪᴍᴀʟ ɴʏᴜᴍʙᴀɴɢ ʟᴀʜ ᴛᴏᴅ ᴀɢᴀʀ ʙᴏᴛɴʏᴀ ɪᴅᴜᴘ ᴛᴇʀᴜꜱ* 
+         ᴋʟɪᴋ ᴀᴊᴀ ʙᴜᴛᴛᴏɴ ᴅᴀɴᴀ ᴅɪʙᴀᴡᴀʜ ᴅɪᴛᴜɴɢɢᴜ ꜱᴜᴍʙᴀɴɢᴀɴʏᴀ .""",
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [
+                    [
+                        InlineKeyboardButton(text="ᴅᴀɴᴀ", url=f"https://link.dana.id/qr/2gmos5bu"),
+                    ]
                     [
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
                     ]
