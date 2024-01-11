@@ -83,7 +83,7 @@ PM_START_TEXT = """
    *➻ ᴜsᴇʀs »* {}
    *➻ ᴄʜᴀᴛs »* {}
 ─────────────────
-*ᴅᴇᴠ: @Dhilnihnge
+*ᴅᴇᴠ: @Foundermidnight
 
 ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ᴍᴏᴅᴜʟ ᴅᴀɴ ᴄᴏᴍᴍᴀɴᴅꜱ ⚠️*
 """
@@ -97,19 +97,19 @@ buttons = [
         InlineKeyboardButton(text="ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇ 💈", callback_data="mukesh_support"),
         ],
         [
-        InlineKeyboardButton(text="ᴅᴇᴠ 👑", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="ᴅᴇᴠ 👑", url=f"tg://user?id=6024180996"),
         InlineKeyboardButton(text="ᴅᴏɴᴀꜱɪ💰", callback_data="Main_help"),
         ],
     [
         InlineKeyboardButton(
-            text="ᴛᴀᴍʙᴀʜᴋᴀɴ ɢᴡ ᴋᴇ ɢʀᴏᴜᴘ ʟᴜ ➕",
+            text="ᴛᴀᴍʙᴀʜ ᴋᴇ ɢᴄ ᴀᴍᴘᴀs ʟᴜ ➕",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
 ]
 
 HELP_STRINGS = f"""
-» *{BOT_NAME}  ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ*"""
+» *{BOT_NAME}  ᴋʟɪᴋ ᴀᴊᴀ ᴋᴀᴋ ʙᴜᴛᴛᴏɴ ɴʏᴀ ᴋᴀʟᴏ ᴍᴀᴜ ᴛᴀᴜ ᴛᴇɴᴛᴀɴɢ ᴍᴏᴅᴜʟᴇ ᴘᴇʀɪɴᴛᴀʜ ɴʏᴀ*"""
 
 DONATE_STRING = f"""ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
@@ -321,7 +321,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")]]
+                    [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Berlinmusic_support")]]
                 ),
             )
 
@@ -371,7 +371,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             f"\n*➥ ᴜsᴇʀs »* {sql.num_users()}"
             f"\n*➥ ᴄʜᴀᴛs »* {sql.num_chats()}"
             "\n────────────────────"
-            "\n*➥ Developer : @Dhilnihnge.*"
+            "\n*➥ Developer : @Foundermidnight.*"
             f"\n\n*➥ Klik tombol di bawah untuk mendapatkan info tentang penggunaan bot {dispatcher.bot.first_name}.*",
             parse_mode=ParseMode.MARKDOWN,
             
