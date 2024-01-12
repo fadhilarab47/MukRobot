@@ -430,7 +430,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Main_help":
         query.message.edit_caption("**✮ ᴍɪɴɪᴍᴀʟ ɴʏᴜᴍʙᴀɴɢ ʟᴀʜ ᴛᴏᴅ ᴀɢᴀʀ ʙᴏᴛɴʏᴀ ɪᴅᴜᴘ ᴛᴇʀᴜꜱ**" 
-        f"\n\nᴋʟɪᴋ ᴀᴊᴀ ʙᴜᴛᴛᴏɴ ᴅᴀɴᴀ ᴅɪʙᴀᴡᴀʜ ᴅɪᴛᴜɴɢɢᴜ ꜱᴜᴍʙᴀɴɢᴀɴʏᴀ ."",
+        f"\n\nᴋʟɪᴋ ᴀᴊᴀ ʙᴜᴛᴛᴏɴ ᴅᴀɴᴀ ᴅɪʙᴀᴡᴀʜ ᴅɪᴛᴜɴɢɢᴜ ꜱᴜᴍʙᴀɴɢᴀɴʏᴀ..",
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
