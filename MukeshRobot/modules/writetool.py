@@ -33,13 +33,13 @@ async def handwrite(_, message: Message):
         text = message.reply_to_message.text
     else:
         text =message.text.split(None, 1)[1]
-    m =await message.reply_text( "`Please wait...,\n\nWriting your text...`")
+    m =await message.reply_text( "`ᴛᴜɴɢɢᴜ ʙᴇɴᴛᴀʀ...,\n\nᴍᴇɴᴜʟɪꜱ ᴛᴇxᴛ ʟᴜ...`")
     write = requests.get(f"https://apis.xditya.me/write?text={text}").url
 
     caption = f"""
-sᴜᴄᴇssғᴜʟʟʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ 💘
-✨ **ᴡʀɪᴛᴛᴇɴ ʙʏ :** [{BOT_NAME}](https://t.me/{BOT_USERNAME})
-🥀 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {message.from_user.mention}
+   ʙᴇʀʜᴀꜱɪʟ ᴍᴇɴᴜʟɪꜱ ᴛᴇxᴛ ❣️
+✨ **ᴛᴜʟɪꜱᴀɴ ꜱɪ :** [{BOT_NAME}](https://t.me/{BOT_USERNAME})
+🥀 **ᴘᴇʀɪɴᴛᴀʜ ꜱɪ :** {message.from_user.mention}
 """
     await m.delete()
     await message.reply_photo(photo=write,caption=caption)
