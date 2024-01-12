@@ -458,11 +458,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(text="ᴍɪᴅɴɪɢʜᴛ ꜱᴇx", url="https://t.me/+50pybD6yWmE5Y2Fl"),
-                    ],
-                    [
                         InlineKeyboardButton(text="ᴡᴏʀʟᴅ ꜱᴇx", url="https://t.me/+Jh3oDTrs4GNhNGM1"),
-                    ],
-                    [
                         InlineKeyboardButton(text="ꜱᴇx ɪɴ ᴡᴏʀʟᴅ", url="https://t.me/+Q_JIeeMfVTg4NWE1"),
                     ],
                     [
