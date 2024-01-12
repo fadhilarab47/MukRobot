@@ -14,7 +14,7 @@ def can_change_info(func: Callable) -> Callable:
         check = await pbot.get_chat_member(message.chat.id, message.from_user.id)
         if check.status not in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR]:
             return await message.reply_text(
-                "» ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴀɴ ᴀᴅᴍɪɴ ʙᴀʙʏ, ᴘʟᴇᴀsᴇ sᴛᴀʏ ɪɴ ʏᴏᴜʀ ʟɪᴍɪᴛs."
+                "» ʟᴜ ɪᴛᴜ ʙᴜᴋᴀɴ ᴀᴅᴍɪɴ ᴛᴏʟᴏʟ, ᴊᴀᴅɪ ꜱᴛᴀʏ ᴛᴜɴᴇ ᴀᴊᴀ."
             )
 
         admin = (
@@ -24,7 +24,7 @@ def can_change_info(func: Callable) -> Callable:
             return await func(_, message)
         else:
             return await message.reply_text(
-                "`You don't have permissions to change group info."
+                "`ʟᴜ ɢᴀ ᴀᴅᴀ ʜᴀᴋ ᴀᴅᴍɪɴ ʙᴜᴀᴛ ᴜʙᴀʜ ɪɴꜰᴏ ɢʀᴏᴜᴘ ɴʏᴀ ʟᴏʟ."
             )
 
     return non_admin
@@ -38,7 +38,7 @@ def can_restrict(func: Callable) -> Callable:
         check = await pbot.get_chat_member(message.chat.id, message.from_user.id)
         if check.status not in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR]:
             return await message.reply_text(
-                "» ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴀɴ ᴀᴅᴍɪɴ ʙᴀʙʏ, ᴘʟᴇᴀsᴇ sᴛᴀʏ ɪɴ ʏᴏᴜʀ ʟɪᴍɪᴛs."
+                "» ʟᴜ ɪᴛᴜ ʙᴜᴋᴀɴ ᴀᴅᴍɪɴ ᴛᴏʟᴏʟ, ᴊᴀᴅɪ ꜱᴛᴀʏ ᴛᴜɴᴇ ᴀᴊᴀ."
             )
 
         admin = (
@@ -48,7 +48,7 @@ def can_restrict(func: Callable) -> Callable:
             return await func(_, message)
         else:
             return await message.reply_text(
-                "`You don't have permissions to restrict users in this chat."
+                "`ʟᴜ ɢᴀ ᴀᴅᴀ ʜᴀᴋ ᴀᴅᴍɪɴ ʙᴜᴀᴛ ʙᴀɴɴᴇᴅ ᴍᴇᴋ."
             )
 
     return non_admin
