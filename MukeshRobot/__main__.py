@@ -1,4 +1,4 @@
-import importlib
+yimport importlib
 import re
 import time
 import asyncio
@@ -408,10 +408,10 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(text="ɴᴛ ꭙ͢ ᴛᴜʜᴀɴ", url=f"tg://user?id=6024180996"),
                     ],
                     [
-                        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴍɪᴅɴɪɢʜᴛ", callback_data="mukesh_"),
+                        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴍɪᴅɴɪɢʜᴛ", callback_data="basic_help"),
                     ],
                     [
-                        InlineKeyboardButton(text="ᴊᴀꜱᴀ ᴅᴇꜱɪɢɴ ᴛᴇʟᴇɢʀᴀᴍ", callback_data="mukesh_back"),
+                        InlineKeyboardButton(text="ᴊᴀꜱᴀ ᴅᴇꜱɪɢɴ ᴛᴇʟᴇɢʀᴀᴍ", callback_data="source_"),
                     ],
                     [
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
@@ -437,10 +437,10 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(text="ᴅᴀɴᴀ", url=f"https://link.dana.id/qr/2gmos5bu"),
-                    ]
+                    ],
                     [
                         InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
-                    ]
+                    ],
                 ]
             ),
         )
@@ -501,7 +501,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(text="• ᴀᴅɪʀᴀ ᴅᴇsɪɢɴ", url=f"tg://user?id=1825139822"),
                     ],
                     [
-                         InlineKeyboardButton(text="ɢʀᴏᴜᴘꜱ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="Music_"),
+                         InlineKeyboardButton(text="ɢʀᴏᴜᴘꜱ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="basic_help"),
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
@@ -645,7 +645,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                          InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴍɪᴅɴɪɢʜᴛ", url=f"https://t.me/Areamidnight"),
                     ],
                     [
-                         InlineKeyboardButton(text="ɢʀᴏᴜᴘꜱ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="Music_admin"),
+                         InlineKeyboardButton(text="ɢʀᴏᴜᴘꜱ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="basic_help"),
                     ],
                     [
                          InlineKeyboardButton(text="ᴊᴀꜱᴀ ᴅᴇꜱɪɢɴ ᴘᴘ", callback_data="source_"),
