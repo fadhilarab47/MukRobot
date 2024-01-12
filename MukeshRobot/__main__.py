@@ -382,7 +382,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
         ],
         [
             InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="help_back"),
-            InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 💈", callback_data="Music_"),
+            InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 💈", callback_data="mukesh_support"),
         ],
         [
             InlineKeyboardButton(text="ᴅᴇᴠ 👑", url=f"tg://user?id=6024180996"),
@@ -454,17 +454,12 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ɴᴛ ꭙ͢ ᴛᴜʜᴀɴ ʟᴜ", url=f"tg://user?id=6024180996"),
+                        InlineKeyboardButton(text="• ɴᴛ ꭙ͢ ᴛᴜʜᴀɴ ʟᴜ", url=f"https://t.me/Foundermidnight"),
                     ],
                     [
                         InlineKeyboardButton(text="ᴍɪᴅɴɪɢʜᴛ ꜱᴇx", url=f"https://t.me/+50pybD6yWmE5Y2Fl"),
                         InlineKeyboardButton(text="ᴡᴏʀʟᴅ ꜱᴇx", url=f"https://t.me/+Jh3oDTrs4GNhNGM1"),
                         InlineKeyboardButton(text="ꜱᴇx ɪɴ ᴡᴏʀʟᴅ", url=f"https://t.me/+Q_JIeeMfVTg4NWE1"),
-                    ],
-                    [
-                         InlineKeyboardButton(text="ɴᴛ", url=f"tg://user?id=6024180996"),
-                         InlineKeyboardButton(text="ᴀɪ", url=f"tg://user?id=1483783177"),
-                         InlineKeyboardButton(text="ᴇꜱᴀ", url=f"tg://user?id=6185020582"),
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
@@ -639,7 +634,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                         InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴍɪᴅɴɪɢʜᴛ", url=f"https://t.me/Areamidnight"),
+                         InlineKeyboardButton(text="ɴᴛ ꭙ͢ ᴛᴜʜᴀɴ ʟᴜ", url=f"https://t.me/Foundermidnight"),
                     ],
                     [
                          InlineKeyboardButton(text="ɢʀᴏᴜᴘꜱ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="basic_help"),
@@ -665,21 +660,12 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴍɪᴅɴɪɢʜᴛ", url=f"tg://user?id=6024180996"),
+                        InlineKeyboardButton(text="• ɴᴛ ꭙ͢ ᴛᴜʜᴀɴ ʟᴜ", url=f"https://t.me/foundermidnight"),
                     ],
                     [
-                        InlineKeyboardButton(text="ᴍɪᴅɴɪɢʜᴛ ꜱᴇx", url="https://t.me/+50pybD6yWmE5Y2Fl"),
-                    ],
-                    [
-                        InlineKeyboardButton(text="ᴡᴏʀʟᴅ ꜱᴇx", url="https://t.me/+Jh3oDTrs4GNhNGM1"),
-                    ],
-                    [
-                        InlineKeyboardButton(text="ꜱᴇx ɪɴ ᴡᴏʀʟᴅ", url="https://t.me/+Q_JIeeMfVTg4NWE1"),
-                    ],
-                    [
-                         InlineKeyboardButton(text="ɴᴛ", url=f"tg://user?id=6024180996"),
-                         InlineKeyboardButton(text="ᴀɪ", url=f"tg://user?id=1483783177"),
-                         InlineKeyboardButton(text="ᴇꜱᴀ", url=f"tg://user?id=6185020582"),
+                        InlineKeyboardButton(text="ᴍɪᴅɴɪɢʜᴛ ꜱᴇx", url=f"https://t.me/+50pybD6yWmE5Y2Fl"),
+                        InlineKeyboardButton(text="ᴡᴏʀʟᴅ ꜱᴇx", url=f"https://t.me/+Jh3oDTrs4GNhNGM1"),
+                        InlineKeyboardButton(text="ꜱᴇx ɪɴ ᴡᴏʀʟᴅ", url=f"https://t.me/+Q_JIeeMfVTg4NWE1"),
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
