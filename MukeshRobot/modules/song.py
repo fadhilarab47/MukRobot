@@ -43,11 +43,11 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "**😴 sᴏɴɢ ɴᴏᴛ ғᴏᴜɴᴅ ᴏɴ ʏᴏᴜᴛᴜʙᴇ.**\n\n» ᴍᴀʏʙᴇ ᴛᴜɴᴇ ɢᴀʟᴀᴛ ʟɪᴋʜᴀ ʜᴏ, ᴩᴀᴅʜᴀɪ - ʟɪᴋʜᴀɪ ᴛᴏʜ ᴋᴀʀᴛᴀ ɴᴀʜɪ ᴛᴜ !"
+            "**😭 ʟᴀɢᴜ ᴛɪᴅᴀᴋ ᴅɪᴛᴇᴍᴜᴋᴀɴ ᴅɪ ʏᴏᴜᴛᴜʙᴇ.**\n\n» ᴍᴜɴɢᴋɪɴ ꜱᴀʟᴀʜ ᴛᴜʟɪꜱ ʟᴀɢᴜɴʏᴀ !"
         )
         print(str(e))
         return
-    m.edit("» ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...\n\nᴩʟᴇᴀsᴇ ᴡᴀɪᴛ...")
+    m.edit("» ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...\n\nᴛᴜɴɢɢᴜ ʙᴇɴᴛᴀʀ...")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
