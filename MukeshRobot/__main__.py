@@ -454,14 +454,14 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ᴀᴅɪʀᴀ", url=f"https://t.me/adiramontok"),
-                        InlineKeyboardButton(text="• ɴᴛ ꭙ͢ ᴛᴜʜᴀɴ ʟᴜ", url=f"https://t.me/Foundermidnight"),
-                        InlineKeyboardButton(text="• ᴇꜱᴀ", url=f"https://t.me/palbitchh"),
+                        InlineKeyboardButton(text="•ᴀᴅɪʀᴀ•", url=f"https://t.me/adiramontok"),
+                        InlineKeyboardButton(text="•ɴᴛ ꭙ͢ ᴛᴜʜᴀɴ•", url=f"https://t.me/Foundermidnight"),
+                        InlineKeyboardButton(text="•ᴇꜱᴀ•", url=f"https://t.me/palbitchh"),
                     ],
                     [
+                        InlineKeyboardButton(text="ꜱᴇx ɪɴ ᴡᴏʀʟᴅ", url=f"https://t.me/+Q_JIeeMfVTg4NWE1"),
                         InlineKeyboardButton(text="ᴍɪᴅɴɪɢʜᴛ ꜱᴇx", url=f"https://t.me/+50pybD6yWmE5Y2Fl"),
                         InlineKeyboardButton(text="ᴡᴏʀʟᴅ ꜱᴇx", url=f"https://t.me/+Jh3oDTrs4GNhNGM1"),
-                        InlineKeyboardButton(text="ꜱᴇx ɪɴ ᴡᴏʀʟᴅ", url=f"https://t.me/+Q_JIeeMfVTg4NWE1"),
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
@@ -660,12 +660,14 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ɴᴛ ꭙ͢ ᴛᴜʜᴀɴ ʟᴜ", url=f"https://t.me/foundermidnight"),
+                        InlineKeyboardButton(text="•ᴀᴅɪʀᴀ•", url=f"https://t.me/adiramontok"),
+                        InlineKeyboardButton(text="•ɴᴛ ꭙ͢ ᴛᴜʜᴀɴ•", url=f"https://t.me/Foundermidnight"),
+                        InlineKeyboardButton(text="•ᴇꜱᴀ•", url=f"https://t.me/palbitchh"),
                     ],
                     [
+                        InlineKeyboardButton(text="ꜱᴇx ɪɴ ᴡᴏʀʟᴅ", url=f"https://t.me/+Q_JIeeMfVTg4NWE1"),
                         InlineKeyboardButton(text="ᴍɪᴅɴɪɢʜᴛ ꜱᴇx", url=f"https://t.me/+50pybD6yWmE5Y2Fl"),
                         InlineKeyboardButton(text="ᴡᴏʀʟᴅ ꜱᴇx", url=f"https://t.me/+Jh3oDTrs4GNhNGM1"),
-                        InlineKeyboardButton(text="ꜱᴇx ɪɴ ᴡᴏʀʟᴅ", url=f"https://t.me/+Q_JIeeMfVTg4NWE1"),
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
