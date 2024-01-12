@@ -39,8 +39,8 @@ def get_user_id(username):
                 return userdat.id
 
         except BadRequest as excp:
-            if excp.message != "Chat not found":
-                LOGGER.exception("Error extracting user ID")
+            if excp.message != "ᴄʜᴀᴛ ᴛɪᴅᴀᴋ ᴅɪ ᴛᴇᴍᴜᴋᴀɴ":
+                LOGGER.exception("ᴋᴇꜱᴀʟᴀʜᴀɴ ɪᴅ ᴘᴇɴɢɢᴜɴᴀ ᴇᴋꜱᴛʀᴀᴋꜱɪ")
 
     return None
 

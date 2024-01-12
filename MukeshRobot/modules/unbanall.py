@@ -18,7 +18,7 @@ from MukeshRobot import *
 from MukeshRobot import LOGGER
 from MukeshRobot.events import register
 
-BOT_ID = 5285688815
+BOT_ID = 6884805679
 CMD_HELP = "/ !"
 
 
@@ -44,7 +44,7 @@ async def _(event):
     creator = chat.creator
     if event.is_private:
         return await event.respond(
-            "__ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ʙᴇ ᴜsᴇ ɪɴ ɢʀᴏᴜᴘs ᴀɴᴅ ᴄʜᴀɴɴᴇʟs!__"
+            "__ᴘᴇʀɪɴᴛᴀʜ ɪɴɪ ʙɪꜱᴀ ᴅɪ ɢᴜɴᴀᴋᴀɴ ᴅɪ ɢʀᴏᴜᴘꜱ ᴏʀ ᴄʜᴀɴɴᴇʟ!__"
         )
 
     is_admin = False
@@ -87,7 +87,7 @@ async def _(event):
             p += 1
 
     if p == 0:
-        await done.edit("ɴᴏ ᴏɴᴇ ɪs ʙᴀɴɴᴇᴅ ɪɴ ᴛʜɪs ᴄʜᴀᴛ")
+        await done.edit("ᴛɪᴅᴀᴋ ᴀᴅᴀ ʏᴀɴɢ ᴅɪʙᴀɴɴᴇᴅ ᴅᴀʟᴀᴍ ᴏʙʀᴏʟᴀɴ ɪɴɪ")
         return
     required_string = "sᴜᴄᴇssғᴜʟʟʏ ᴜɴʙᴀɴɴᴇᴅ **{}** ᴜsᴇʀs"
     await event.reply(required_string.format(p))
@@ -97,7 +97,7 @@ async def _(event):
 async def _(event):
     if event.is_private:
         return await event.respond(
-            "__This command can be use in groups and channels!__"
+            "__ᴘᴇʀɪɴᴛᴀʜ ɪɴɪ ʙɪꜱᴀ ᴅɪ ɢᴜɴᴀᴋᴀɴ ᴅɪ ɢʀᴏᴜᴘꜱ ᴏʀ ᴄʜᴀɴɴᴇʟ!__"
         )
 
     is_admin = False
@@ -122,7 +122,7 @@ async def _(event):
 
     # Well
     if not admin and not creator:
-        await event.reply("`I don't have enough permissions!`")
+        await event.reply("`ɪ ᴅᴏɴᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ!`")
         return
 
     done = await event.reply("Working ...")
@@ -147,7 +147,7 @@ async def _(event):
             p += 1
 
     if p == 0:
-        await done.edit("ɴᴏ ᴏɴᴇ ɪs ᴍᴜᴛᴇᴅ ɪɴ ᴛʜɪs ᴄʜᴀᴛ")
+        await done.edit("ᴛɪᴅᴀᴋ ᴀᴅᴀ ʏᴀɴɢ ᴅɪᴍᴜᴛᴇ ᴅᴀʟᴀᴍ ᴏʙʀᴏʟᴀɴ ɪɴɪ")
         return
     required_string = "sᴜᴄᴇssғᴜʟʟʏ ᴜɴᴍᴜᴛᴇᴅ **{}** ᴜsᴇʀs"
     await event.reply(required_string.format(p))

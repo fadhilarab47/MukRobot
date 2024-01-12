@@ -38,16 +38,16 @@ async def _(event):
         return
 
     if not event.is_reply:
-        await event.reply("Reply to a file to compress it.")
+        await event.reply("ʀᴇᴘʟʏ ꜰɪʟᴇ ɴʏᴀ ᴍᴀɴᴀ ʏᴀɴɢ ᴍᴀᴜ ᴅɪ ᴄᴏᴍᴘʀᴇꜱ.")
         return
     if event.is_group:
         if not (await is_register_admin(event.input_chat, event.message.sender_id)):
             await event.reply(
-                "Hey, you are not admin. You can't use this command, But you can use in my PM 🙂"
+                "ᴡᴏʏ, ʟᴜ ʙᴜᴋᴀɴ ᴀᴅᴍɪɴ, ɢᴀʙɪꜱᴀ ʟᴜ ᴘᴀᴋᴇ ᴍᴏᴅᴜʟᴇ ɪɴɪ, ᴄᴜᴍᴀɴ ʟᴜ ʙɪꜱᴀ ᴘᴀᴋᴇ ᴅɪ ᴘᴄ ᴅᴏᴀɴɢ ᴋᴇɴᴛᴏᴅ"
             )
             return
 
-    mone = await event.reply("⏳️ Please wait...")
+    mone = await event.reply("⏳️ ᴛᴜɴɢɢᴜ ʙᴇɴᴛᴀʀ...")
     if not os.path.isdir(TEMP_DOWNLOAD_DIRECTORY):
         os.makedirs(TEMP_DOWNLOAD_DIRECTORY)
     if event.reply_to_msg_id:
@@ -125,7 +125,7 @@ async def _(event):
     if event.is_group:
         if not (await is_register_admin(event.input_chat, event.message.sender_id)):
             await event.reply(
-                "Hey, You are not admin. You can't use this command, But you can use in my PM 🙂"
+                "ᴡᴏʏ, ʟᴜ ʙᴜᴋᴀɴ ᴀᴅᴍɪɴ, ɢᴀʙɪꜱᴀ ʟᴜ ᴘᴀᴋᴇ ᴍᴏᴅᴜʟᴇ ɪɴɪ, ᴄᴜᴍᴀɴ ʟᴜ ʙɪꜱᴀ ᴘᴀᴋᴇ ᴅɪ ᴘᴄ ᴅᴏᴀɴɢ ᴋᴇɴᴛᴏᴅ"
             )
             return
 
