@@ -448,7 +448,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
         query.message.edit_caption(
 """✮ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ɪɴɪ ᴅɪ ʙᴜᴀᴛ ʙᴇʀᴛᴜᴊᴜᴀɴ ʜᴀᴠᴇ ꜰᴜɴ ᴅᴀɴ ꜱᴀʟɪɴɢ ᴍᴇʀᴀɴɢᴋᴜʟ, ᴅɪꜱɪɴɪ ɢᴀʙᴀᴅᴀ ʏᴀɴɢ ɴᴀᴍᴀɴʏᴀ ᴘᴇᴛɪɴɢɢɪ" ꜱᴇᴍᴜᴀ ʀᴀᴛᴀ ᴋᴏɴᴛᴏʟ
 
-ʟᴜ ʙɪꜱᴀ ᴊᴏɪɴ ɢʀᴏᴜᴘꜱ ᴅɪʙᴀᴡᴀʜ, ᴋᴀʟᴏ ᴍᴀᴜ ɴɢᴇ ᴀᴅᴍɪɴ ʟᴀɴɢꜱᴜɴɢ ᴘᴄᴘᴄ ᴀᴊᴀ ɴᴛ / ᴀɪ / ᴇꜱᴀ :
+ʟᴜ ʙɪꜱᴀ ᴊᴏɪɴ ɢʀᴏᴜᴘꜱ ᴅɪʙᴀᴡᴀʜ, ᴋᴀʟᴏ ᴍᴀᴜ ɴɢᴇ ᴀᴅᴍɪɴ ʟᴀɴɢꜱᴜɴɢ ᴘᴄᴘᴄ ᴀᴊᴀ ɴᴛ :
 """,parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
@@ -624,11 +624,9 @@ def Source_about_callback(update: Update, context: CallbackContext):
 def Music_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Music_":
-        query.message.edit_caption(f"""
-*ᴅɪʙᴀᴡᴀʜ ɪɴɪ ʙᴇʙᴇʀᴀᴘᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴅᴀɴ ᴇᴅɪᴛᴏʀ ᴛᴇʟᴇɢʀᴀᴍ [ɴᴛ x ᴛᴜʜᴀɴ](https://t.me/Foundermidnight).
-
-ꜱɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ʙᴜᴛᴛᴏɴ ᴅɪʙᴀᴡᴀʜ ɪɴɪ..*
-""",
+        query.message.edit_caption("**ᴅɪʙᴀᴡᴀʜ ɪɴɪ ʙᴇʙᴇʀᴀᴘᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴅᴀɴ ᴇᴅɪᴛᴏʀ ᴛᴇʟᴇɢʀᴀᴍ [ɴᴛ x ᴛᴜʜᴀɴ](https://t.me/Foundermidnight).**"
+        f"\n\nꜱɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ʙᴜᴛᴛᴏɴ ᴅɪ ʙᴀᴡᴀʜ..",
+        
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
@@ -653,7 +651,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             f"""
 *✮ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ɪɴɪ ᴅɪ ʙᴜᴀᴛ ʙᴇʀᴛᴜᴊᴜᴀɴ ʜᴀᴠᴇ ꜰᴜɴ ᴅᴀɴ ꜱᴀʟɪɴɢ ᴍᴇʀᴀɴɢᴋᴜʟ, ᴅɪꜱɪɴɪ ɢᴀʙᴀᴅᴀ ʏᴀɴɢ ɴᴀᴍᴀɴʏᴀ ᴘᴇᴛɪɴɢɢɪ" ꜱᴇᴍᴜᴀ ʀᴀᴛᴀ ᴋᴏɴᴛᴏʟ
 
-ʟᴜ ʙɪꜱᴀ ᴊᴏɪɴ ɢʀᴏᴜᴘꜱ ᴅɪʙᴀᴡᴀʜ, ᴋᴀʟᴏ ᴍᴀᴜ ɴɢᴇ ᴀᴅᴍɪɴ ʟᴀɴɢꜱᴜɴɢ ᴘᴄᴘᴄ ᴀᴊᴀ ɴᴛ / ᴀɪ / ᴇꜱᴀ :*
+ʟᴜ ʙɪꜱᴀ ᴊᴏɪɴ ɢʀᴏᴜᴘꜱ ᴅɪʙᴀᴡᴀʜ, ᴋᴀʟᴏ ᴍᴀᴜ ɴɢᴇ ᴀᴅᴍɪɴ ʟᴀɴɢꜱᴜɴɢ ᴘᴄᴘᴄ ᴀᴊᴀ ɴᴛ :*
 """,
             parse_mode=ParseMode.MARKDOWN,
             
