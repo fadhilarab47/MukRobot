@@ -454,12 +454,12 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴍɪᴅɴɪɢʜᴛ", url=f"tg://user?id=6024180996"),
+                        InlineKeyboardButton(text="• ɴᴛ ꭙ͢ ᴛᴜʜᴀɴ ʟᴜ", url=f"tg://user?id=6024180996"),
                     ],
                     [
-                        InlineKeyboardButton(text="ᴍɪᴅɴɪɢʜᴛ ꜱᴇx", url="https://t.me/+50pybD6yWmE5Y2Fl"),
-                        InlineKeyboardButton(text="ᴡᴏʀʟᴅ ꜱᴇx", url="https://t.me/+Jh3oDTrs4GNhNGM1"),
-                        InlineKeyboardButton(text="ꜱᴇx ɪɴ ᴡᴏʀʟᴅ", url="https://t.me/+Q_JIeeMfVTg4NWE1"),
+                        InlineKeyboardButton(text="ᴍɪᴅɴɪɢʜᴛ ꜱᴇx", url=f"https://t.me/+50pybD6yWmE5Y2Fl"),
+                        InlineKeyboardButton(text="ᴡᴏʀʟᴅ ꜱᴇx", url=f"https://t.me/+Jh3oDTrs4GNhNGM1"),
+                        InlineKeyboardButton(text="ꜱᴇx ɪɴ ᴡᴏʀʟᴅ", url=f"https://t.me/+Q_JIeeMfVTg4NWE1"),
                     ],
                     [
                          InlineKeyboardButton(text="ɴᴛ", url=f"tg://user?id=6024180996"),
