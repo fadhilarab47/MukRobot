@@ -45,7 +45,7 @@ async def eor(msg: Message, **kwargs):
 @app.on_message(filters.command(["webss", "ss", "webshot"]))
 async def take_ss(_, message: Message):
     if len(message.command) < 2:
-        return await eor(message, text="ɢɪᴠᴇ ᴀ ᴜʀʟ ᴛᴏ ғᴇᴛᴄʜ sᴄʀᴇᴇɴsʜᴏᴛ.")
+        return await eor(message, text="ᴋᴀꜱɪʜ ɢᴡ ʟɪɴᴋ ʙᴜᴀᴛ ᴅɪ ꜱꜱ ɴʏᴀ ᴍᴇᴋ.")
 
     if len(message.command) == 2:
         url = message.text.split(None, 1)[1]
@@ -66,7 +66,7 @@ async def take_ss(_, message: Message):
     try:
         photo = await take_screenshot(url, full)
         if not photo:
-            return await m.edit("ғᴀɪʟᴇᴅ ᴛᴏ ᴛᴀᴋᴇ sᴄʀᴇᴇɴsʜᴏᴛ.")
+            return await m.edit("ɢᴀɢᴀʟ ᴍᴇᴋ ꜱᴄʀᴇᴇɴꜱʜᴏᴛɴʏᴀ.")
 
         m = await m.edit("ᴜᴘʟᴏᴀᴅɪɴɢ...")
 
